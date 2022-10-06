@@ -1,0 +1,37 @@
+.caja{
+    border: 1px solid black;
+    padding: 10px;
+    margin: unset;
+    width: 50%;
+    margin-left: auto;
+    margin-right:auto; 
+    font-family: Georgia;
+    }
+h1{ 
+        font-size: 50px;
+    margin:0px;
+    color: #375e97;
+    }
+    hr{
+        color: #375e97;
+    }
+h2{
+
+    font-family: Arial;
+     color:  #999999;   
+     font-size: 20px;
+    }
+    h3{
+        font-family: Arial;
+        color: black;   
+        font-size: 30px;
+       }
+p{
+    font-family: Arial;
+}
+li{
+    font-family: Arial;   
+}
+a{
+    color:  #fb6542;
+}
