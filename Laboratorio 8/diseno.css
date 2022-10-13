@@ -1,0 +1,104 @@
+
+*{
+  font-family: 'Montserrat';
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section{
+  width: 400px;
+  height: auto;
+  padding: 100px;
+  border-radius: 10px;
+    }
+    .contenedor{
+      display: flex;
+      flex-direction:column;
+      background-color: #023361;
+      padding: 25px;
+      border-radius: 10px;
+      min-width: 300px;
+   }
+   
+#titulo {
+  color: white;
+  display: flex;
+  justify-content: center ;
+  font-size: 15px;
+}
+
+.cadena{
+  display: flex;
+  justify-content: flex-start;
+}
+
+#texto{
+  font-family: arial;
+  font-size: 10px;
+  color: white;
+}
+
+
+
+#botones{ 
+  padding: 10px;
+ border: none;
+ cursor: pointer;
+ display: flex;
+justify-content: space-between;
+}
+#boton1{
+  border: unset;
+  border-radius: 5px;
+ color: white;
+ background-color:red;
+ padding: 10px 15px;
+
+}
+#boton2{
+  border: unset;
+  border-radius: 5px;
+ background-color: blue;
+  border: unset;
+  color: white;
+  padding: 10px 15px;
+
+}
+
+
+.blanco {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0 10px;
+  color: white;
+  font-size: 10px;
+  
+}
+#string{
+  color: black;
+}
+
+.resultado {
+  color: black;
+  font-weight: 600;
+  position: absolute;
+  top: 74%;
+}
+
+#resultado {
+  color:black;
+}
+
+.letras{
+  color: black;
+  font-weight: 600;
+  position: absolute;
+  top: 70%;
+}
+#letras{
+  color:black;
+}

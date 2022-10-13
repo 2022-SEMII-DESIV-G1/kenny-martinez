@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="diseno.css">
+</head>
+
+<body>
+    <section>
+        <form id="group">
+            <div id="contenedor" class="contenedor">
+                <div id="titulo">
+                    <h1> Contador de letras</h1>
+                </div>
+                <div id="inputs" class="blanco">
+                    <label for="string">Cadena de texto</label>
+                    <input type="text" name="string" id="string" />
+                </div>
+    
+                <div id="botones">
+                    <button id="boton1" onclick="limp()"><b>Limpiar</b></button>
+    
+    
+                    <button id="boton2" onclick="contar()"><b>Calcular</b></button>
+                </div>
+        </form>
+        <div class="letras">
+            <p id="letras"></p>
+        </div>
+        <div class="resultado">
+            <p id="resultado"></p>
+        </div>
+        </div>
+    </section>
+    <script src="Lab8.js"></script>
+</body>
+</html>
