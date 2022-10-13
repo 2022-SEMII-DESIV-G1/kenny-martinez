@@ -75,11 +75,13 @@ justify-content: space-between;
   flex-direction: column;
   padding: 10px 0 10px;
   color: white;
-  font-size: 10px;
+  font-size: 12px;
   
 }
 #string{
+  font-size: 15px;
   color: black;
+  font-family: Arial;
 }
 
 .resultado {
